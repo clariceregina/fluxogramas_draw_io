@@ -1,0 +1,67 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Página-1" id="BUxE78IcwhSdMWZAXVWZ">
+    <mxGraphModel dx="872" dy="577" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-27" value="Solicite a idade de uma pessoa. Se ela tiver dezoito anos ou mais, pode tirar a CNH. Caso contrário, recebe uma mensagem falando que não é possível tirar a carteira de motorista." style="text;fontSize=17;fontFamily=Verdana;whiteSpace=wrap;labelBorderColor=none;labelBackgroundColor=none;fontColor=light-dark(#808080, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="97.42" y="48" width="628" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;strokeWidth=2;strokeColor=#808080;" parent="1" source="Qw4cx3ljEpowtOxgIRJA-10" target="Qw4cx3ljEpowtOxgIRJA-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-10" value="Início" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#808080,#EDEDED);fontSize=15;fillColor=#FFCCCC;" parent="1" vertex="1">
+          <mxGeometry x="368.06467561521254" y="162" width="85.12" height="85.12" as="geometry" />
+        </mxCell>
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-11" value="Fim" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#808080;fontSize=15;fillColor=#FFCCCC;" parent="1" vertex="1">
+          <mxGeometry x="364.53467561521256" y="741.88" width="85.12" height="85.12" as="geometry" />
+        </mxCell>
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;strokeWidth=2;strokeColor=#808080;" parent="1" source="Qw4cx3ljEpowtOxgIRJA-12" target="Qw4cx3ljEpowtOxgIRJA-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-12" value="Idade" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBorderColor=none;fontColor=#808080;fontSize=15;fillColor=#FFE599;" parent="1" vertex="1">
+          <mxGeometry x="341.4921700223714" y="312.024" width="138.255033557047" height="63.84" as="geometry" />
+        </mxCell>
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;strokeWidth=2;strokeColor=#808080;" parent="1" source="Qw4cx3ljEpowtOxgIRJA-14" target="Qw4cx3ljEpowtOxgIRJA-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W79ttorlZ9Be6GyFWjsj-1" value="SIM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qw4cx3ljEpowtOxgIRJA-21">
+          <mxGeometry x="-0.3671" y="-2" relative="1" as="geometry">
+            <mxPoint x="8" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;strokeWidth=2;strokeColor=#808080;" parent="1" source="Qw4cx3ljEpowtOxgIRJA-14" target="Qw4cx3ljEpowtOxgIRJA-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W79ttorlZ9Be6GyFWjsj-3" value="NÃO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qw4cx3ljEpowtOxgIRJA-22">
+          <mxGeometry x="-0.4591" y="-2" relative="1" as="geometry">
+            <mxPoint x="-3" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-14" value="&amp;gt;= 18 ?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#808080;fontSize=15;fillColor=#D5E8D4;" parent="1" vertex="1">
+          <mxGeometry x="357.6219239373602" y="440.76800000000003" width="107.59697986577181" height="99.36696" as="geometry" />
+        </mxCell>
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;strokeWidth=2;strokeColor=#808080;" parent="1" source="Qw4cx3ljEpowtOxgIRJA-17" target="Qw4cx3ljEpowtOxgIRJA-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225.1275167785235" y="784.44" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-17" value="Pode tirar CNH" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#808080;fontSize=15;fillColor=#E5CCFF;" parent="1" vertex="1">
+          <mxGeometry x="156" y="597.176" width="138.255033557047" height="85.12" as="geometry" />
+        </mxCell>
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;strokeWidth=2;strokeColor=#808080;" parent="1" source="Qw4cx3ljEpowtOxgIRJA-18" target="Qw4cx3ljEpowtOxgIRJA-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="601.8724832214766" y="784.44" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qw4cx3ljEpowtOxgIRJA-18" value="Não pode tirar CNH" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#808080;fontSize=15;fillColor=#E5CCFF;" parent="1" vertex="1">
+          <mxGeometry x="532.744966442953" y="597.176" width="138.255033557047" height="85.12" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
